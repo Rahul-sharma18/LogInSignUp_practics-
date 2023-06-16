@@ -1,0 +1,35 @@
+body{
+    /* border: solid red 2px; */
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .header{
+    position: fixed;
+    position: sticky;
+    position: absolute;
+    background-color: rgb(10, 160, 155);
+    height: 55px;
+    width: 100%;
+}
+
+.navbar{
+    display: inline-block;
+   
+    text-decoration: none;
+   }
+   .navbar li{
+    display: inline-block;
+    font-size: 25px;
+   }
+   .navbar li a{
+    color: white;
+    text-decoration: none;
+    padding-left: 190px;
+   }
+   
+   .navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(12, 194, 201);
+   }
+   

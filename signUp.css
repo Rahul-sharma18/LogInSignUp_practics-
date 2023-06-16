@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    background:#d5b97a;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* box-shadow: 15px 5px 30px rgba(0,0,0,0.3); */
+}
+.login{
+    /* background-color: cornsilk; */
+    width:800px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    /* box-shadow: 15px 5px 30px rgba(555,555,555,555.55); */
+}
+.login-form{
+    flex-basis:50%;
+    background: #958585;
+    
+    box-shadow: 15px 5px 30px rgba(0,0,0,3);
+    padding:25px;
+}
+.login-form h1{
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 2.5em;
+    color:#e1ab74;
+}
+.tbox{
+    border-radius: 30px;
+    background: transparent;
+    outline:none;
+    border: 2px solid #13d4a7;
+    width:100%;
+    height:40px;
+    margin:28px 5px;
+}
+.tbox input{
+    background: transparent;
+    width:70%;
+    outline:none;
+    border:0;
+    padding-left: 5px;
+    text-align: center;
+}
+::placeholder{
+    font-size: 16px;
+    color:rgb(66, 220, 184);
+}
+.tbox i{
+    color:turquoise;
+    font-size: 17px;
+    padding:9px;
+}
+.btn{
+    width:100%;
+    border:0;
+    border-radius: 30px;
+    background:#cd9d32;
+    color:#fff;
+    padding:12px;
+    font-size: 18px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: #009688;
+}
+.social{
+    margin-top:32px;
+    list-style: none;
+    text-align: center;
+}
+.social li{
+    display: inline-block;
+}
+.social li i{
+    height:35px;
+    width:75px;
+    line-height: 35px;
+    border:2px solid solid black;
+    border-radius: 50%;
+    font-size: 30px;
+    color:rgb(35 219 176);
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.social li i:hover{
+    color: #009688;
+}
+.forgot-password{
+    /* border:2px solid red; */
+    text-align: center;
+    margin-top:15px;
+    padding:10px 0;
+}
+.forgot-password {
+    font-size: 22px;
+    text-decoration: none;
+    color:whitesmoke;
+}
+.sign-up {
+    text-decoration: none;
+    color:black;  
+}
+.sign-up a{
+    text-decoration: none;
+    color:rgb(27, 23, 145);  
+}
+
+@media(max-width:768px)
+{
+    .login{
+        flex-direction: column;
+        margin: 0 15px;
+    }
+}
